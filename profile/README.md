@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="JibarOS" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Jibar-OS/JibarOS/main/assets/banner.png" alt="JibarOS" width="100%"/>
 </p>
 
 <p align="center">

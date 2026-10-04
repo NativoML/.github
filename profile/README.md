@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Jibar-OS/JibarOS/main/assets/banner.png" alt="JibarOS" width="100%"/>
+  <img src="https://raw.githubusercontent.com/NativoML/JibarOS/main/assets/banner.png" alt="JibarOS" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Jibar-OS/JibarOS/stargazers">
-    <img src="https://img.shields.io/github/stars/Jibar-OS/JibarOS?style=social" alt="Stars" />
+  <a href="https://github.com/NativoML/JibarOS/stargazers">
+    <img src="https://img.shields.io/github/stars/NativoML/JibarOS?style=social" alt="Stars" />
   </a>
   <img src="https://img.shields.io/badge/Android-16-34A853?logo=android&logoColor=white" alt="Android 16" />
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue" alt="Apache 2.0" />
@@ -29,11 +29,11 @@ Models load once at the platform tier and are shared across every app that asks.
 
 Named after Puerto Rico's *jíbaros* — rural folk, known for resilience and self-sufficiency. Models and runtime live on the device, work offline, no cloud account required.
 
-> ⭐ [**Star the main repo**](https://github.com/Jibar-OS/JibarOS) — it's the cheapest signal that on-device AI belongs at the platform tier.
+> ⭐ [**Star the main repo**](https://github.com/NativoML/JibarOS) — it's the cheapest signal that on-device AI belongs at the platform tier.
 
 ## Start here
 
-👉 **[github.com/Jibar-OS/JibarOS](https://github.com/Jibar-OS/JibarOS)** — the main repo. README, architecture diagram, `default.xml` manifest, and the `docs/` directory with capability/knob/SDK/model/build guides.
+👉 **[github.com/NativoML/JibarOS](https://github.com/NativoML/JibarOS)** — the main repo. README, architecture diagram, `default.xml` manifest, and the `docs/` directory with capability/knob/SDK/model/build guides.
 
 ## The runtime surface
 
@@ -52,24 +52,24 @@ OIR (Open Intelligence Runtime) is the inference layer. Twelve capabilities, per
 | `vision.detect` | BoundingBoxes | RT-DETR (ONNX Runtime) |
 | `vision.ocr` | BoundingBoxes | OEM-supplied det+rec pair |
 
-Full details in [`JibarOS/docs/CAPABILITIES.md`](https://github.com/Jibar-OS/JibarOS/blob/main/docs/CAPABILITIES.md).
+Full details in [`JibarOS/docs/CAPABILITIES.md`](https://github.com/NativoML/JibarOS/blob/main/docs/CAPABILITIES.md).
 
 ## What's in this org
 
 **Core**
-- [`JibarOS`](https://github.com/Jibar-OS/JibarOS) — main: manifest + docs
-- [`oird`](https://github.com/Jibar-OS/oird) — native inference daemon (C++)
-- [`oir-framework-addons`](https://github.com/Jibar-OS/oir-framework-addons) — platform service + AIDL (Java)
-- [`oir-patches`](https://github.com/Jibar-OS/oir-patches) — 5 small patches to upstream AOSP (69 lines)
-- [`oir-sdk`](https://github.com/Jibar-OS/oir-sdk) — Kotlin SDK for apps
-- [`oir-demo`](https://github.com/Jibar-OS/oir-demo) — OirDemo Mission Control reference app
-- [`oir-vendor-models`](https://github.com/Jibar-OS/oir-vendor-models) — reference model bundle + fetch script
-- [`device_google_cuttlefish`](https://github.com/Jibar-OS/device_google_cuttlefish) — reference device tree
+- [`JibarOS`](https://github.com/NativoML/JibarOS) — main: manifest + docs
+- [`oird`](https://github.com/NativoML/oird) — native inference daemon (C++)
+- [`oir-framework-addons`](https://github.com/NativoML/oir-framework-addons) — platform service + AIDL (Java)
+- [`oir-patches`](https://github.com/NativoML/oir-patches) — 5 small patches to upstream AOSP (69 lines)
+- [`oir-sdk`](https://github.com/NativoML/oir-sdk) — Kotlin SDK for apps
+- [`oir-demo`](https://github.com/NativoML/oir-demo) — OirDemo Mission Control reference app
+- [`oir-vendor-models`](https://github.com/NativoML/oir-vendor-models) — reference model bundle + fetch script
+- [`device_google_cuttlefish`](https://github.com/NativoML/device_google_cuttlefish) — reference device tree
 
 **External backend forks**
-- [`platform_external_llamacpp`](https://github.com/Jibar-OS/platform_external_llamacpp)
-- [`platform_external_whispercpp`](https://github.com/Jibar-OS/platform_external_whispercpp)
-- [`platform_external_onnxruntime`](https://github.com/Jibar-OS/platform_external_onnxruntime)
+- [`platform_external_llamacpp`](https://github.com/NativoML/platform_external_llamacpp)
+- [`platform_external_whispercpp`](https://github.com/NativoML/platform_external_whispercpp)
+- [`platform_external_onnxruntime`](https://github.com/NativoML/platform_external_onnxruntime)
 
 ## AAOSP → JibarOS
 
